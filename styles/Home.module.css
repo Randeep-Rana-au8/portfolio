@@ -1,3 +1,13 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1900px;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -24,6 +34,7 @@
   justify-content: center;
   align-items: center;
   height: 91vh;
+  max-height: 700px;
 }
 
 .footer {
@@ -72,7 +83,8 @@
 .section {
   width: 100%;
   height: 95vh;
-  padding: 30px;
+  max-height: 700px;
+  padding: 110px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,10 +98,35 @@
   align-items: center;
 }
 
-.sectionImage {
-  background-color: rebeccapurple;
+.img {
+  display: flex;
 }
 
-.sectionData {
-  background-color: pink;
+.skillsSection {
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skillsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.skillsImage {
+  margin: 20px 25px;
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  max-height: 500px;
+  background-color: gray;
+  color: white;
 }
