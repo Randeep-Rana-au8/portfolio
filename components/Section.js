@@ -21,6 +21,7 @@ const Section = ({ data }) => {
         </div>
         <div className={`${styles.box} ${styles.sectionData}`}>
           <h2>{data.description}</h2>
+          <button className={styles.readMoreBtn}>Read More</button>
         </div>
       </div>
     </>

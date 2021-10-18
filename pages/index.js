@@ -5,7 +5,6 @@ import Section from "../components/Section";
 import styles from "../styles/Home.module.css";
 import { aboutObj } from "../data/about";
 import SkillsSection from "../components/SkillsSection";
-import Footer from "../components/Footer";
 
 export default function Home() {
   console.log(aboutObj);
@@ -17,11 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <Header />
+        {/* <Header /> */}
         <HeroSection />
         <Section data={aboutObj} />
         <SkillsSection />
-        <Footer />
+
         {/* <Section />
       <Section /> */}
       </div>

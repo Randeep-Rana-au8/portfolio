@@ -1,7 +1,23 @@
+.logo {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  cursor: pointer;
+  background-color: rgba(245, 222, 179, 0.199);
+}
+
 .app {
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .container {
@@ -14,6 +30,15 @@
   justify-content: space-between;
   padding: 0 10%;
   align-items: center;
+  position: fixed;
+  z-index: 1000;
+  color: white;
+}
+
+.scroll {
+  background: white;
+  color: black;
+  box-shadow: 10px -13px 20px 0px;
 }
 
 .header ul {
@@ -27,14 +52,52 @@
   margin: 0 10px;
 }
 
+.header li:hover {
+  color: red;
+  cursor: pointer;
+}
+
 .main {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 91vh;
-  max-height: 700px;
+  height: 100vh;
+  max-height: 800px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.info {
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.336);
+  justify-content: center;
+  align-items: center;
+}
+
+.videoBg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
 }
 
 .footer {
@@ -94,12 +157,37 @@
   width: 100%;
   height: 100%;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 
+.sectionData {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.readMoreBtn {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  font-family: "Kaushan Script";
+  transition: all ease-in-out 0.2s;
+}
+
+.readMoreBtn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
 .img {
   display: flex;
+  border-radius: 32px;
 }
 
 .skillsSection {
@@ -125,8 +213,122 @@
 
 .footer {
   width: 100%;
-  height: 40vh;
-  max-height: 500px;
-  background-color: gray;
+  height: 100px;
+  max-height: 100px;
+  background-color: #232a34;
   color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.projectHero {
+  height: 40vh;
+  width: 100%;
+  background: #232a34;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutContainer {
+  display: flex;
+  height: 600px;
+}
+
+.project {
+  display: flex;
+  width: 100%;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+}
+
+.projectDetails p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.imageBox img {
+  border: 1px solid black;
+}
+
+.projectBtn {
+  width: 130px;
+  height: 40px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.2s all ease-in-out;
+}
+
+.projectBtn:hover {
+  background: #232a34;
+  color: white;
+  cursor: pointer;
+}
+
+.projectBtns {
+  margin-top: 30px;
+}
+
+.icons {
+  display: flex;
+}
+
+.socialIcon {
+  width: 50px;
+  font-size: 24px;
+}
+
+.socialIcon:hover {
+  color: #11a4e9;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+
+  .section {
+    width: 100%;
+    min-height: 700px;
+    padding: 110px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
