@@ -5,21 +5,46 @@ const Footer = () => {
     <div className={styles.footer}>
       <h3>RR © {new Date().getFullYear()} All rights reserved.</h3>
       <div className={styles.icons}>
-        <div className={styles.socialIcon}>
+        <a
+          href="https://www.twitter.com/irandeeprana"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialIcon}
+        >
           <FaFacebook />
-        </div>
-        <div className={styles.socialIcon}>
+        </a>
+        <a
+          href="https://www.instagram.com/randeep_rana_official/"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialIcon}
+        >
           <FaInstagram />
-        </div>
-        <div className={styles.socialIcon}>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/randeep-rana-dev/"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialIcon}
+        >
           <FaLinkedin />
-        </div>
-        <div className={styles.socialIcon}>
+        </a>
+        <a
+          href="https://www.twitter.com/irandeeprana"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialIcon}
+        >
           <FaTwitter />
-        </div>
-        <div className={styles.socialIcon}>
+        </a>
+        <a
+          href="https://www.twitter.com/irandeeprana"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialIcon}
+        >
           <FaYoutube />
-        </div>
+        </a>
       </div>
     </div>
   );

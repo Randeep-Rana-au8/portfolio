@@ -11,21 +11,14 @@ const about = () => {
           <Image src="/Images/randeeprana.jpg" alt="randeep-rana" width={400} height={400} />
         </div>
         <div className={styles.box}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, hic blanditiis. Quos,
-            similique impedit! Laboriosam deserunt ab perferendis ad aut minus impedit, ratione modi
-            tempora asperiores laborum numquam beatae similique sit laudantium, minima animi
-            accusamus aliquid fugiat eligendi aspernatur. Odio repudiandae, facere delectus est
-            officia similique error repellendus ratione aspernatur mollitia fugiat consequatur
-            veniam necessitatibus reprehenderit dolore in iste libero natus, neque corrupti qui?
-            Eos, nostrum ipsum alias quisquam unde distinctio tempore odit corrupti molestiae dolore
-            suscipit tempora accusantium reiciendis assumenda officiis optio sapiente, atque iusto
-            fuga consequuntur! Consectetur molestiae tempore mollitia consequatur doloribus!
-            Veritatis illum dolorum a optio vel voluptatem consectetur, nulla quos, voluptatibus
-            similique doloribus nostrum unde porro dolorem autem quaerat, neque nesciunt architecto
-            non! Facilis eaque cupiditate numquam impedit a doloremque porro, consequatur possimus
-            dolores accusantium illum sequi labore eius expedita vero ex ab eos deserunt quae.
-          </p>
+          <h2>
+            I am a full stack developer who writes, clean, elegant and efficient code. I enjoy
+            turning complex problems into simple, beautiful and intuitive designs. When I'm not
+            pushing pixels, you'll find me travelling, playing cricket or working out in gym.
+            <br />
+            <br />I have good experience working with Reactjs, Redux, Nextjs, Javascript, Nodejs,
+            Expressjs and Mongodb. For Design I usually use plain css, sass and material ui.
+          </h2>
         </div>
       </div>
     </div>

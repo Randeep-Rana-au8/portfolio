@@ -11,7 +11,9 @@ const ProjectSection = ({ data }) => {
     <div className={styles.project}>
       {(size.width <= 786 || imageInLeft) && (
         <div className={`${styles.box} ${styles.imageBox}`}>
-          <Image src={imageSrc} alt={name} width="500px" height="300" />
+          <a href={liveLink} target="_blank" rel="noreferrer">
+            <Image src={imageSrc} alt={name} width="500px" height="300" />
+          </a>
         </div>
       )}
       <div
@@ -33,7 +35,9 @@ const ProjectSection = ({ data }) => {
 
       {size.width > 786 && !imageInLeft && (
         <div className={`${styles.box} ${styles.imageBox}`}>
-          <Image src={imageSrc} alt={name} width="500px" height="300" />
+          <a href={liveLink} target="_blank" rel="noreferrer">
+            <Image src={imageSrc} alt={name} width="500px" height="300" />
+          </a>
         </div>
       )}
     </div>

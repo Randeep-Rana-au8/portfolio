@@ -160,6 +160,9 @@
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .sectionData {
@@ -170,13 +173,14 @@
 }
 
 .readMoreBtn {
-  width: 130px;
-  height: 50px;
+  width: 150px;
+  padding: 7px 0;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: larger;
   font-family: "Kaushan Script";
   transition: all ease-in-out 0.2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
 }
 
 .readMoreBtn:hover {
@@ -272,6 +276,12 @@
   border: 1px solid black;
 }
 
+.imageBox:hover {
+  transition: 0.5s all ease-out;
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
 .projectBtn {
   width: 130px;
   height: 40px;
@@ -330,5 +340,10 @@
   .footer {
     display: flex;
     flex-direction: column;
+  }
+
+  .box {
+    padding: 0 40px;
+    font-size: 18px;
   }
 }
