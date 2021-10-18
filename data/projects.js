@@ -9,7 +9,7 @@ export const projectsData = [
     React & redux for frontend.`,
     liveLink: "https://supaexpress.herokuapp.com/",
     imageSrc: "/Images/supaexpress.png",
-    githubLink: "",
+    githubLink: "https://github.com/Randeep-Rana-au8/supaexpress-fullstack-app",
     imageInLeft: false,
   },
   {
@@ -18,7 +18,7 @@ export const projectsData = [
     I will add the backend and signup functionality later. Till then enjoy the UI and Your feedback is always appriciated.
     `,
     liveLink: "https://bankkr.netlify.app/",
-    githubLink: "",
+    githubLink: "https://github.com/Randeep-Rana-au8/bankkr",
     imageSrc: "/Images/bankkr.png",
     imageInLeft: true,
   },
@@ -26,7 +26,7 @@ export const projectsData = [
     name: "Amazon Clone",
     description: `Amazon is an Ecommerce website as you all already know😁. I build this clone with Reactjs, I have added add to cart functionaly in it so user can add products to the cart and get the sub total of products in cart page. Feel free to check the live website and your feedback is always appriciated.`,
     liveLink: "https://my--clone-59e83.web.app/",
-    githubLink: "",
+    githubLink: "https://github.com/Randeep-Rana-au8/amazon-clone",
     imageSrc: "/Images/amazon.png",
     imageInLeft: false,
   },
