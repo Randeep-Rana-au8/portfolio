@@ -1,5 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { blogsData } from "../data/blogs.js";
+import BlogsSection from "../components/BlogsSection";
 const blogs = () => {
   return (
     <>
@@ -13,7 +15,9 @@ const blogs = () => {
           <h2>My Blogs</h2>
         </div>
         <div className={styles.project}>
-          <p>Blogs are Coming Soon</p>
+          {blogsData.map((blog) => (
+            <BlogsSection key={blog.title} data={blog} />
+          ))}
         </div>
       </div>
     </>
