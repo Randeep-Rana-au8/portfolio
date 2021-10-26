@@ -23,12 +23,21 @@ export const projectsData = [
     imageInLeft: true,
   },
   {
+    name: "Rock-Paper-Scissors",
+    description: `Rock Paper Scissors is a very popular game, So i decided to build it with Reactjs and Nodejs. I use React, Redux in frontend and Node.js, Express and Mongodb to handle Backend. If user want to play the game, first user need to register after that they can access the game and they can enjoy it.
+    `,
+    liveLink: "https://rana-rps.netlify.app/",
+    githubLink: "https://github.com/Randeep-Rana-au8/Rock-Paper-Scissors",
+    imageSrc: "/Images/rps.png",
+    imageInLeft: false,
+  },
+  {
     name: "Amazon Clone",
     description: `Amazon is an Ecommerce website as you all already know😁. I build this clone with Reactjs, I have added add to cart functionaly in it so user can add products to the cart and get the sub total of products in cart page. Feel free to check the live website and your feedback is always appriciated.`,
     liveLink: "https://my--clone-59e83.web.app/",
     githubLink: "https://github.com/Randeep-Rana-au8/amazon-clone",
     imageSrc: "/Images/amazon.png",
-    imageInLeft: false,
+    imageInLeft: true,
   },
   {
     name: "Portfolio",
@@ -36,7 +45,7 @@ export const projectsData = [
     liveLink: "",
     githubLink: "",
     imageSrc: "/Images/portfolioSS.png",
-    imageInLeft: true,
+    imageInLeft: false,
   },
   {
     name: "Weather App",
@@ -44,6 +53,6 @@ export const projectsData = [
     liveLink: "https://getweather-info.netlify.app/",
     githubLink: "",
     imageSrc: "/Images/weather.png",
-    imageInLeft: false,
+    imageInLeft: true,
   },
 ];
